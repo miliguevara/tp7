@@ -1,0 +1,9 @@
+:root{--primary:#7b3f00;--bg:#fff7f0;--muted:#6b7280}
+*{box-sizing:border-box}body{font-family:Roboto,Arial,sans-serif;background:var(--bg);margin:0;color:#222}
+.c-header{background:linear-gradient(90deg,#f6d6b6,#f9f2ed);padding:1rem}
+.c-header h1{margin:0}
+.c-main{max-width:900px;margin:1rem auto;padding:0 1rem}
+ol{counter-reset:item}
+ol li{margin-bottom:0.5rem;padding-left:0.4rem}
+ul ul{margin-top:0.5rem;padding-left:1rem}
+.c-footer{text-align:center;padding:0.8rem;color:var(--muted)}
